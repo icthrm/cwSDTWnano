@@ -3,12 +3,14 @@ Here we proposed two novel algorithms, the Direct Subsequence Dynamic Time Warpi
 
 # example
 
+sat-query accepts the ATCG... (i.e., genomic sequence) as the enquiry (here, please make sure your input also follows the format as "genome_subseq"), and a nanopore raw signal file as the reference. sat-query will output the query region and mapping path between the query and the raw signal. The test example is:
+
 sat-query -i genome_subseq -p nanopore_sig -o out -m 0
 
 Here, -m 0 for direct query (DSDTWnano) and -m 1 for fast query (cwSDTWnano). The default mode is -m 0. More detailed information could be get by -h.
 
-More testing data can be found at 
-https://drive.google.com/drive/folders/1LuOxg9qE1l9AuDcfyUz9aF10X4cgmX5t?usp=sharing
+This program is suitable for any nanopore data that observes R9.4 pore model. More testing data can be found at 
+https://drive.google.com/drive/folders/1LuOxg9qE1l9AuDcfyUz9aF10X4cgmX5t?usp=sharing (please note that you should build the test case (short query) yourself, because what we provided here is just a sequencing dataset).
 
 
 # Output format:
