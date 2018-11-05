@@ -29,9 +29,6 @@ https://drive.google.com/drive/folders/1LuOxg9qE1l9AuDcfyUz9aF10X4cgmX5t?usp=sha
          2     56254 |         90.1578             514 |      -0.0652257        0.227072          diff:       0.292297          ACAAGG
          2     56255 |         90.1578             497 |      -0.0652257      -0.0014421          diff:      0.0637836          ACAAGG
          
----------
-[Legend]:
----------
 
 the 1st column shows the mapping of the first position (e.g., on query signal) starting from 1,
 the 2nd column shows the mapping of the second position (e.g., on raw signal) starting from 1,
