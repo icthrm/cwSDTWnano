@@ -55,7 +55,8 @@ Here, -m 0 for direct query (DSDTWnano) and -m 1 for fast query (cwSDTWnano). Th
 
 # Output format:
 
-
+         1          2                3               4             5              
+--------------------------------------------------------------------------
 0.161953
 query_idx     signal_idx |     query_value    signal_value          6-mer
          0          22272 |         75.9828             414         CTGATA
