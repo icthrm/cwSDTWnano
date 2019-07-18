@@ -59,13 +59,24 @@ Here, -m 0 for direct query (DSDTWnano) and -m 1 for fast query (cwSDTWnano). Th
 --------------------------------------------------------------------------
 0.161953
 query_idx     signal_idx |     query_value    signal_value          6-mer
+
+0.161953
+query_idx     signal_idx |     query_value    signal_value          6-mer
+
          0          22272 |         75.9828             414         CTGATA
+
          0          22273 |         75.9828             409         CTGATA
+
          0          22274 |         75.9828             413         CTGATA
+
          0          22275 |         75.9828             423         CTGATA
+
          0          22276 |         75.9828             424         CTGATA
+
          0          22277 |         75.9828             411         CTGATA
+
          0          22278 |         75.9828             423         CTGATA
+
          0          22279 |         75.9828             412         CTGATA
          0          22280 |         75.9828             414         CTGATA
          0          22281 |         75.9828             406         CTGATA
@@ -84,6 +95,8 @@ query_idx     signal_idx |     query_value    signal_value          6-mer
          4          22294 |         79.1267             438         TAAGTA
          5          22295 |          77.238             427         AAGTAA
          5          22296 |          77.238             431         AAGTAA
+
+
 
          
 ---------
