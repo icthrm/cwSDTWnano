@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/util/exception.cpp
+exception.h
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/util/exception.h
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/util/exception.h
+iostream
+-
+sstream
+-
+string
+-
+cstdio
+-
+stdarg.h
+-
+cstring
+-
+cstdio
+-
+ctime
+-
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/util/qsort.cpp
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+qsort.h
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/util/qsort.h
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/util/qsort.h
+

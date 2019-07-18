@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libwavelib.a  CMakeFiles/wavelib.dir/conv.c.o CMakeFiles/wavelib.dir/cwt.c.o CMakeFiles/wavelib.dir/cwtmath.c.o CMakeFiles/wavelib.dir/hsfft.c.o CMakeFiles/wavelib.dir/real.c.o CMakeFiles/wavelib.dir/wavefilt.c.o CMakeFiles/wavelib.dir/wavefunc.c.o CMakeFiles/wavelib.dir/wavelib.c.o CMakeFiles/wavelib.dir/wtmath.c.o
+/usr/bin/ranlib ../../libwavelib.a

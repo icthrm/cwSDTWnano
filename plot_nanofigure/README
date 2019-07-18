@@ -1,0 +1,6 @@
+
+#--------- oneline command -------------#
+./plot_figure.sh wsout_SNP.fasta example
+
+
+

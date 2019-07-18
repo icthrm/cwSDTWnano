@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/lib6mer.a  CMakeFiles/6mer.dir/6mer_index.cpp.o
+/usr/bin/ranlib ../../lib/lib6mer.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libproc.a  CMakeFiles/proc.dir/proc.cpp.o CMakeFiles/proc.dir/base_fun.cpp.o CMakeFiles/proc.dir/resample.cpp.o CMakeFiles/proc.dir/io.cpp.o
+/usr/bin/ranlib ../../lib/libproc.a

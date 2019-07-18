@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x  -fPIC CMakeFiles/sat-query.dir/main.cpp.o  -o ../../bin/sat-query -rdynamic ../../lib/libproc.a ../../lib/lib6mer.a -lm ../../lib/libwavelib.a ../../lib/libutil.a -lhdf5 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x  -fPIC CMakeFiles/mer2seq.dir/main.cpp.o  -o ../../bin/mer2seq -rdynamic ../../lib/lib6mer.a ../../lib/libproc.a -lm ../../lib/lib6mer.a ../../lib/libutil.a ../../lib/libwavelib.a -lhdf5 

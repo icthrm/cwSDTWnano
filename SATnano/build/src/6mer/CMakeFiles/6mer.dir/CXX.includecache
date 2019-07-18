@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/6mer/6mer_index.cpp
+6mer_index.h
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/6mer/6mer_index.h
+iostream
+-
+6mer_index_official.rc
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/6mer/6mer_index_official.rc
+cstring
+-
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/6mer/6mer_index.h
+vector
+-
+string
+-
+
+/mnt/hgfs/data/projects/cwdtw-fastalign/data/cwSDTWnano/SATnano/src/6mer/6mer_index_official.rc
+

@@ -1,0 +1,7 @@
+add_subdirectory(fastquery)
+add_subdirectory(fastalign)
+add_subdirectory(util)
+add_subdirectory(6mer)
+add_subdirectory(mer2seq)
+add_subdirectory(proc)
+# add_subdirectory(tmp)
