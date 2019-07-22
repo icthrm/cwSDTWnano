@@ -1,6 +1,3 @@
-
 #--------- oneline command -------------#
-./plot_figure.sh wsout_SNP.fasta example
-
-
+./plot_figure.sh example/refseq.fasta example/snpseq.fasta aligned_signals/
 
