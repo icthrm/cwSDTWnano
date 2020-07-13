@@ -1,7 +1,13 @@
 # cwSDTWnano
 Here we proposed two novel algorithms, the Direct Subsequence Dynamic Time Warping for nanopore raw signal search (DSDTWnano) and the continuous wavelet Subsequence DTW for nanopore raw signal search (cwSDTWnano), to enable the direct subsequence inquiry and exact mapping in the nanopore raw signal datasets. The proposed algorithms are based on the idea of Subsequence-extended Dynamic Time Warping (SDTW) and directly operates on the raw signals, without any loss of information. DSDTWnano could ensure an output of highly accurate query result and cwSDTWnano is the accelerated version of DSDTWnano, with the help of seeding and multi-scale coarsening of signals that based on continuous wavelet transform (CWT).
 
-The source code of cwSDTWnano is within the project SATnano (sat-query), as well as cwdtw (sat-align). To compile the files, please use cmake. The updated code supports fast5 format, which require the installed hdf5 lib (here, for centos/fedora, please use the commend "dnf install hdf5-devel"; for ubuntu, please use the commend "apt-get install libhdf5-serial-dev"; otherwise, manually download from https://www.hdfgroup.org/downloads/hdf5/). 
+The source code of cwSDTWnano is within the project SATnano (sat-query), as well as cwdtw (sat-align). To compile the files, please use cmake. The updated code supports fast5 format, which require the installed hdf5 lib (here, for centos/fedora, please use the commend "dnf install hdf5-devel"; for ubuntu, please use the commend "apt-get install libhdf5-serial-dev"; otherwise, manually download from https://www.hdfgroup.org/downloads/hdf5/). To compile the source, please input the following code in terminal:
+
+cd ./cwSDTWnano
+mkdir build
+cd build
+cmake ..
+make
 
 # Example
 
