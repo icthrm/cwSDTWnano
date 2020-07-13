@@ -4,9 +4,13 @@ Here we proposed two novel algorithms, the Direct Subsequence Dynamic Time Warpi
 The source code of cwSDTWnano is within the project SATnano (sat-query), as well as cwdtw (sat-align). To compile the files, please use cmake. The updated code supports fast5 format, which require the installed hdf5 lib (here, for centos/fedora, please use the commend "dnf install hdf5-devel"; for ubuntu, please use the commend "apt-get install libhdf5-serial-dev"; otherwise, manually download from https://www.hdfgroup.org/downloads/hdf5/). To compile the source, please input the following code in terminal:
 
 cd ./cwSDTWnano
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
 
 # Example
